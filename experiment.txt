@@ -1,0 +1,44 @@
+*using data from def evaluate(), assesments from def train() were worse by margin of +-10%*
+
+--100 Epochs:
+Train Loss: 1.0422, Train Accuracy: 64.06%
+Test Loss: 2.0118, Test Accuracy: 45.65%
+
+--150 Epochs:
+Train Loss: 0.4412, Train Accuracy: 83.77%
+Test Loss: 2.2767, Test Accuracy: 50.85%
+
+--200 Epochs:
+Train Loss: 0.1609, Train Accuracy: 94.27%
+Test Loss: 2.7567, Test Accuracy: 52.86%
+
+--250 Epochs:     --- limit of this architecture ---
+Train Loss: 0.0152, Train Accuracy: 99.89%
+Test Loss: 3.0095, Test Accuracy: 55.06%
+
+--265 Epochs:
+Train Loss: 0.0101, Train Accuracy: 99.96%
+Test Loss: 3.1364, Test Accuracy: 54.78%
+
+--280 Epochs:
+Train Loss: 0.0105, Train Accuracy: 99.96%
+Test Loss: 3.2441, Test Accuracy: 54.74%
+
+--300 Epochs:
+Train Loss: 0.0064, Train Accuracy: 99.98%
+Test Loss: 3.3412, Test Accuracy: 55.01%
+
+--330 Epochs:
+Train Loss: 0.0045, Train Accuracy: 100.00%
+Test Loss: 3.4608, Test Accuracy: 54.76%
+
+--450 Epochs:
+Train Loss: 0.0063, Train Accuracy: 100.00%
+Test Loss: 3.4116, Test Accuracy: 54.81%
+
+--500 Epochs:
+Train Loss: 0.0029, Train Accuracy: 100.00%
+Test Loss: 3.5699, Test Accuracy: 54.82%
+
+**Conclusion:
+Test accuracy fluctuates around a plateau of approximately 55%, that is 250 Epochs.
